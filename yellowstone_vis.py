@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 import numpy as np
 
-data = open(file='weather_data/yellowstone_2023.csv', mode='r')
+data = open(file='yellowstone_2023.csv', mode='r')
 
 reader = csv.reader(data)
 header = next(reader)
